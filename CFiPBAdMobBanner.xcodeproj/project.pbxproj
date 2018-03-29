@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22B24CD9206CD7AA007D4E90 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B24CD8206CD7AA007D4E90 /* AppDelegate.m */; };
+		22B24CDC206CD7AA007D4E90 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B24CDB206CD7AA007D4E90 /* ViewController.m */; };
+		22B24CDF206CD7AA007D4E90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22B24CDD206CD7AA007D4E90 /* Main.storyboard */; };
+		22B24CE2206CD7AA007D4E90 /* CFiPBAdMobBanner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 22B24CE0206CD7AA007D4E90 /* CFiPBAdMobBanner.xcdatamodeld */; };
+		22B24CE4206CD7AA007D4E90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22B24CE3206CD7AA007D4E90 /* Assets.xcassets */; };
+		22B24CE7206CD7AA007D4E90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22B24CE5206CD7AA007D4E90 /* LaunchScreen.storyboard */; };
+		22B24CEA206CD7AA007D4E90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B24CE9206CD7AA007D4E90 /* main.m */; };
+		22B24CF4206CD7AB007D4E90 /* CFiPBAdMobBannerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B24CF3206CD7AB007D4E90 /* CFiPBAdMobBannerTests.m */; };
+		22B24CFF206CD7AB007D4E90 /* CFiPBAdMobBannerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B24CFE206CD7AB007D4E90 /* CFiPBAdMobBannerUITests.m */; };
+		22B24D11206CD977007D4E90 /* iMFAD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B24D10206CD977007D4E90 /* iMFAD.framework */; };
+		22B24D12206CD977007D4E90 /* iMFAD.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 22B24D10206CD977007D4E90 /* iMFAD.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22B24CF0206CD7AB007D4E90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22B24CCC206CD7AA007D4E90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22B24CD3206CD7AA007D4E90;
+			remoteInfo = CFiPBAdMobBanner;
+		};
+		22B24CFB206CD7AB007D4E90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22B24CCC206CD7AA007D4E90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22B24CD3206CD7AA007D4E90;
+			remoteInfo = CFiPBAdMobBanner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		22B24D13206CD977007D4E90 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				22B24D12206CD977007D4E90 /* iMFAD.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		22B24CD4206CD7AA007D4E90 /* CFiPBAdMobBanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CFiPBAdMobBanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22B24CD7206CD7AA007D4E90 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		22B24CD8206CD7AA007D4E90 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		22B24CDA206CD7AA007D4E90 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		22B24CDB206CD7AA007D4E90 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		22B24CDE206CD7AA007D4E90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22B24CE1206CD7AA007D4E90 /* CFiPBAdMobBanner.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CFiPBAdMobBanner.xcdatamodel; sourceTree = "<group>"; };
+		22B24CE3206CD7AA007D4E90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22B24CE6206CD7AA007D4E90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		22B24CE8206CD7AA007D4E90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22B24CE9206CD7AA007D4E90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22B24CEF206CD7AB007D4E90 /* CFiPBAdMobBannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CFiPBAdMobBannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22B24CF3206CD7AB007D4E90 /* CFiPBAdMobBannerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFiPBAdMobBannerTests.m; sourceTree = "<group>"; };
+		22B24CF5206CD7AB007D4E90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22B24CFA206CD7AB007D4E90 /* CFiPBAdMobBannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CFiPBAdMobBannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22B24CFE206CD7AB007D4E90 /* CFiPBAdMobBannerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFiPBAdMobBannerUITests.m; sourceTree = "<group>"; };
+		22B24D00206CD7AB007D4E90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22B24D10206CD977007D4E90 /* iMFAD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iMFAD.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22B24CD1206CD7AA007D4E90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22B24D11206CD977007D4E90 /* iMFAD.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22B24CEC206CD7AB007D4E90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22B24CF7206CD7AB007D4E90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22B24CCB206CD7AA007D4E90 = {
+			isa = PBXGroup;
+			children = (
+				22B24D10206CD977007D4E90 /* iMFAD.framework */,
+				22B24CD6206CD7AA007D4E90 /* CFiPBAdMobBanner */,
+				22B24CF2206CD7AB007D4E90 /* CFiPBAdMobBannerTests */,
+				22B24CFD206CD7AB007D4E90 /* CFiPBAdMobBannerUITests */,
+				22B24CD5206CD7AA007D4E90 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22B24CD5206CD7AA007D4E90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22B24CD4206CD7AA007D4E90 /* CFiPBAdMobBanner.app */,
+				22B24CEF206CD7AB007D4E90 /* CFiPBAdMobBannerTests.xctest */,
+				22B24CFA206CD7AB007D4E90 /* CFiPBAdMobBannerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22B24CD6206CD7AA007D4E90 /* CFiPBAdMobBanner */ = {
+			isa = PBXGroup;
+			children = (
+				22B24CD7206CD7AA007D4E90 /* AppDelegate.h */,
+				22B24CD8206CD7AA007D4E90 /* AppDelegate.m */,
+				22B24CDA206CD7AA007D4E90 /* ViewController.h */,
+				22B24CDB206CD7AA007D4E90 /* ViewController.m */,
+				22B24CDD206CD7AA007D4E90 /* Main.storyboard */,
+				22B24CE3206CD7AA007D4E90 /* Assets.xcassets */,
+				22B24CE5206CD7AA007D4E90 /* LaunchScreen.storyboard */,
+				22B24CE8206CD7AA007D4E90 /* Info.plist */,
+				22B24CE9206CD7AA007D4E90 /* main.m */,
+				22B24CE0206CD7AA007D4E90 /* CFiPBAdMobBanner.xcdatamodeld */,
+			);
+			path = CFiPBAdMobBanner;
+			sourceTree = "<group>";
+		};
+		22B24CF2206CD7AB007D4E90 /* CFiPBAdMobBannerTests */ = {
+			isa = PBXGroup;
+			children = (
+				22B24CF3206CD7AB007D4E90 /* CFiPBAdMobBannerTests.m */,
+				22B24CF5206CD7AB007D4E90 /* Info.plist */,
+			);
+			path = CFiPBAdMobBannerTests;
+			sourceTree = "<group>";
+		};
+		22B24CFD206CD7AB007D4E90 /* CFiPBAdMobBannerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				22B24CFE206CD7AB007D4E90 /* CFiPBAdMobBannerUITests.m */,
+				22B24D00206CD7AB007D4E90 /* Info.plist */,
+			);
+			path = CFiPBAdMobBannerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22B24CD3206CD7AA007D4E90 /* CFiPBAdMobBanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22B24D03206CD7AB007D4E90 /* Build configuration list for PBXNativeTarget "CFiPBAdMobBanner" */;
+			buildPhases = (
+				22B24CD0206CD7AA007D4E90 /* Sources */,
+				22B24CD1206CD7AA007D4E90 /* Frameworks */,
+				22B24CD2206CD7AA007D4E90 /* Resources */,
+				22B24D13206CD977007D4E90 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CFiPBAdMobBanner;
+			productName = CFiPBAdMobBanner;
+			productReference = 22B24CD4206CD7AA007D4E90 /* CFiPBAdMobBanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22B24CEE206CD7AB007D4E90 /* CFiPBAdMobBannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22B24D06206CD7AB007D4E90 /* Build configuration list for PBXNativeTarget "CFiPBAdMobBannerTests" */;
+			buildPhases = (
+				22B24CEB206CD7AB007D4E90 /* Sources */,
+				22B24CEC206CD7AB007D4E90 /* Frameworks */,
+				22B24CED206CD7AB007D4E90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22B24CF1206CD7AB007D4E90 /* PBXTargetDependency */,
+			);
+			name = CFiPBAdMobBannerTests;
+			productName = CFiPBAdMobBannerTests;
+			productReference = 22B24CEF206CD7AB007D4E90 /* CFiPBAdMobBannerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		22B24CF9206CD7AB007D4E90 /* CFiPBAdMobBannerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22B24D09206CD7AB007D4E90 /* Build configuration list for PBXNativeTarget "CFiPBAdMobBannerUITests" */;
+			buildPhases = (
+				22B24CF6206CD7AB007D4E90 /* Sources */,
+				22B24CF7206CD7AB007D4E90 /* Frameworks */,
+				22B24CF8206CD7AB007D4E90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22B24CFC206CD7AB007D4E90 /* PBXTargetDependency */,
+			);
+			name = CFiPBAdMobBannerUITests;
+			productName = CFiPBAdMobBannerUITests;
+			productReference = 22B24CFA206CD7AB007D4E90 /* CFiPBAdMobBannerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22B24CCC206CD7AA007D4E90 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = cf;
+				TargetAttributes = {
+					22B24CD3206CD7AA007D4E90 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					22B24CEE206CD7AB007D4E90 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 22B24CD3206CD7AA007D4E90;
+					};
+					22B24CF9206CD7AB007D4E90 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 22B24CD3206CD7AA007D4E90;
+					};
+				};
+			};
+			buildConfigurationList = 22B24CCF206CD7AA007D4E90 /* Build configuration list for PBXProject "CFiPBAdMobBanner" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22B24CCB206CD7AA007D4E90;
+			productRefGroup = 22B24CD5206CD7AA007D4E90 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22B24CD3206CD7AA007D4E90 /* CFiPBAdMobBanner */,
+				22B24CEE206CD7AB007D4E90 /* CFiPBAdMobBannerTests */,
+				22B24CF9206CD7AB007D4E90 /* CFiPBAdMobBannerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22B24CD2206CD7AA007D4E90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22B24CE7206CD7AA007D4E90 /* LaunchScreen.storyboard in Resources */,
+				22B24CE4206CD7AA007D4E90 /* Assets.xcassets in Resources */,
+				22B24CDF206CD7AA007D4E90 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22B24CED206CD7AB007D4E90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22B24CF8206CD7AB007D4E90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22B24CD0206CD7AA007D4E90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22B24CDC206CD7AA007D4E90 /* ViewController.m in Sources */,
+				22B24CE2206CD7AA007D4E90 /* CFiPBAdMobBanner.xcdatamodeld in Sources */,
+				22B24CEA206CD7AA007D4E90 /* main.m in Sources */,
+				22B24CD9206CD7AA007D4E90 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22B24CEB206CD7AB007D4E90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22B24CF4206CD7AB007D4E90 /* CFiPBAdMobBannerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22B24CF6206CD7AB007D4E90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22B24CFF206CD7AB007D4E90 /* CFiPBAdMobBannerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22B24CF1206CD7AB007D4E90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22B24CD3206CD7AA007D4E90 /* CFiPBAdMobBanner */;
+			targetProxy = 22B24CF0206CD7AB007D4E90 /* PBXContainerItemProxy */;
+		};
+		22B24CFC206CD7AB007D4E90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22B24CD3206CD7AA007D4E90 /* CFiPBAdMobBanner */;
+			targetProxy = 22B24CFB206CD7AB007D4E90 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		22B24CDD206CD7AA007D4E90 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22B24CDE206CD7AA007D4E90 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		22B24CE5206CD7AA007D4E90 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22B24CE6206CD7AA007D4E90 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22B24D01206CD7AB007D4E90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		22B24D02206CD7AB007D4E90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22B24D04206CD7AB007D4E90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Q3LY5VL5Q;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CFiPBAdMobBanner",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = CFiPBAdMobBanner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cf.CFiPBAdMobBanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22B24D05206CD7AB007D4E90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Q3LY5VL5Q;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CFiPBAdMobBanner",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = CFiPBAdMobBanner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cf.CFiPBAdMobBanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		22B24D07206CD7AB007D4E90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CFiPBAdMobBannerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cf.CFiPBAdMobBannerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CFiPBAdMobBanner.app/CFiPBAdMobBanner";
+			};
+			name = Debug;
+		};
+		22B24D08206CD7AB007D4E90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CFiPBAdMobBannerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cf.CFiPBAdMobBannerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CFiPBAdMobBanner.app/CFiPBAdMobBanner";
+			};
+			name = Release;
+		};
+		22B24D0A206CD7AB007D4E90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CFiPBAdMobBannerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cf.CFiPBAdMobBannerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CFiPBAdMobBanner;
+			};
+			name = Debug;
+		};
+		22B24D0B206CD7AB007D4E90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CFiPBAdMobBannerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cf.CFiPBAdMobBannerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CFiPBAdMobBanner;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22B24CCF206CD7AA007D4E90 /* Build configuration list for PBXProject "CFiPBAdMobBanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22B24D01206CD7AB007D4E90 /* Debug */,
+				22B24D02206CD7AB007D4E90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22B24D03206CD7AB007D4E90 /* Build configuration list for PBXNativeTarget "CFiPBAdMobBanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22B24D04206CD7AB007D4E90 /* Debug */,
+				22B24D05206CD7AB007D4E90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22B24D06206CD7AB007D4E90 /* Build configuration list for PBXNativeTarget "CFiPBAdMobBannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22B24D07206CD7AB007D4E90 /* Debug */,
+				22B24D08206CD7AB007D4E90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22B24D09206CD7AB007D4E90 /* Build configuration list for PBXNativeTarget "CFiPBAdMobBannerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22B24D0A206CD7AB007D4E90 /* Debug */,
+				22B24D0B206CD7AB007D4E90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		22B24CE0206CD7AA007D4E90 /* CFiPBAdMobBanner.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				22B24CE1206CD7AA007D4E90 /* CFiPBAdMobBanner.xcdatamodel */,
+			);
+			currentVersion = 22B24CE1206CD7AA007D4E90 /* CFiPBAdMobBanner.xcdatamodel */;
+			path = CFiPBAdMobBanner.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 22B24CCC206CD7AA007D4E90 /* Project object */;
+}
